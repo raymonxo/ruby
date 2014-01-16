@@ -1,4 +1,4 @@
-# Project Euler, Problem #1 (http://projecteuler.net/problem=1)
+# Project Euler, Problem #1 (http://projecteuler.net/problem=1) 
 class Integer < Numeric
   def has_factor?(factor)
     self % factor == 0
