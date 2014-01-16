@@ -1,7 +1,7 @@
 # Project Euler, Problem #1 (http://projecteuler.net/problem=1)
 class Integer < Numeric
-  def has_factor?(divisor)
-    self % divisor == 0
+  def has_factor?(factor)
+    self % factor == 0
   end
 end
 
